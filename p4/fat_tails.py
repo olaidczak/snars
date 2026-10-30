@@ -1,5 +1,3 @@
-"""Fat-tailed degree distribution analysis (task 4.0)."""
-
 import numpy as np
 import matplotlib.pyplot as plt
 
@@ -124,69 +122,3 @@ def mle_alpha(G, x_min):
     x = get_degrees(G)
     x = x[x >= x_min]
     return 1 + len(x) / np.sum(np.log(x / x_min))
-
-
-def ks_distance(G, x_min, alpha):
-    """Max distance between the empirical and fitted survival functions for x >= x_min."""
-    x = get_degrees(G)
-    x = np.sort(x[x >= x_min])
-    empirical = 1 - np.arange(len(x)) / len(x)
-    fitted = (x / x_min) ** (1 - alpha)
-    return np.max(np.abs(empirical - fitted))
-
-
-def find_x_min(G, min_tail=100):
-    """Exercise 8: choose x_min minimizing the KS distance (Clauset, Shalizi, Newman 2009).
-
-    Only x_min with at least min_tail nodes in the tail are considered.
-    Returns a dict with the best x_min, its alpha, and all candidates for plotting.
-    """
-    degrees = get_degrees(G)
-    candidates = [x for x in np.unique(degrees) if x > 0 and np.sum(degrees >= x) >= min_tail]
-    alphas = [mle_alpha(G, x) for x in candidates]
-    distances = [ks_distance(G, x, a) for x, a in zip(candidates, alphas)]
-    best = int(np.argmin(distances))
-    return {
-        "x_min": candidates[best],
-        "alpha": alphas[best],
-        "n_tail": int(np.sum(degrees >= candidates[best])),
-        "candidates": candidates,
-        "alphas": alphas,
-        "distances": distances,
-    }
-
-
-def plot_x_min_scan(G, min_tail=100):
-    """Exercise 8: alpha and KS distance as functions of x_min."""
-    result = find_x_min(G, min_tail)
-    fig, axes = plt.subplots(1, 2, figsize=(12, 5))
-    for ax, key, label in [(axes[0], "alphas", "alpha"), (axes[1], "distances", "KS distance")]:
-        ax.plot(result["candidates"], result[key])
-        ax.axvline(result["x_min"], color="red", linestyle="--")
-        ax.set_xlabel("x_min")
-        ax.set_ylabel(label)
-        ax.set_title(f"{label} vs x_min")
-    plt.tight_layout()
-    return fig
-
-
-def analyze(G):
-    """Run the whole task 4.0 analysis on graph G and print the alpha estimates."""
-    _, axes = plt.subplots(1, 4, figsize=(24, 5))
-    plot_histogram(G, axes[0])
-    plot_loglog_histogram(G, axes[1])
-    plot_log_binned_histogram(G, ax=axes[2])
-    plot_survival_function(G, axes[3])
-    plt.tight_layout()
-    plt.show()
-
-    for method, alpha in alpha_regression(G).items():
-        print(f"regression ({method}): alpha = {alpha:.2f}")
-    plot_alpha_regression(G)
-    plt.show()
-
-    result = find_x_min(G)
-    print(f"MLE with x_min = 1: alpha = {mle_alpha(G, 1):.2f}")
-    print(f"MLE with best x_min = {result['x_min']}: alpha = {result['alpha']:.2f} ({result['n_tail']} nodes in tail)")
-    plot_x_min_scan(G)
-    plt.show()
