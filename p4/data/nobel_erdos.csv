@@ -1,0 +1,326 @@
+name,year,subject,erdos
+Hendrik Lorentz,1902,Physics,3.0
+Pieter Zeeman,1902,Physics,4.0
+Antoine Henri Becquerel,1903,Physics,5.0
+Pierre Curie,1903,Physics,8.0
+Marie Curie,1903,Physics,7.0
+Heike Kamerlingh Onnes,1913,Physics,4.0
+Max von Laue,1914,Physics,4.0
+William Henry Bragg,1915,Physics,7.0
+William Lawrence Bragg,1915,Physics,6.0
+Albert Einstein,1921,Physics,2.0
+Niels Bohr,1922,Physics,4.0
+Arthur Holly Compton,1927,Physics,4.0
+Louis de Broglie,1929,Physics,5.0
+Werner Heisenberg,1932,Physics,4.0
+Paul A. Dirac,1933,Physics,4.0
+Erwin Schrödinger,1933,Physics,4.0
+James Chadwick,1935,Physics,5.0
+Enrico Fermi,1938,Physics,3.0
+Ernest O. Lawrence,1939,Physics,6.0
+Otto Stern,1943,Physics,3.0
+Isidor I. Rabi,1944,Physics,4.0
+Wolfgang Pauli,1945,Physics,3.0
+Sir John Douglas Cockcroft,1951,Physics,6.0
+Ernest Thomas Sinton Walton,1951,Physics,7.0
+Felix Bloch,1952,Physics,5.0
+Edward Mills Purcell,1952,Physics,4.0
+Frits Zernike,1953,Physics,4.0
+Max Born,1954,Physics,3.0
+Walltlher Bothe,1954,Physics,8.0
+"Willis Eugene Lamb, Jr.",1955,Physics,3.0
+Polykarp Kusch,1955,Physics,5.0
+John Bardeen,1956,Physics,5.0
+Walter Houser Brattain,1956,Physics,6.0
+William B. Shockley,1956,Physics,5.0
+Chen Ning Yang,1957,Physics,4.0
+Tsung-dao Lee,1957,Physics,5.0
+Pavel Alekseyevich Cherenkov,1958,Physics,8.0
+Il'Ja Mikhailovich Frank,1958,Physics,7.0
+Igor Yevgenyevich Tamm,1958,Physics,8.0
+Owen Chamberlain,1959,Physics,5.0
+Emilio Gino Segre,1959,Physics,4.0
+Donald A. Glaser,1960,Physics,5.0
+Robert Hofstadter,1961,Physics,5.0
+Rudolf Ludwig Mossbauer,1961,Physics,5.0
+Lev Davidovich Landau,1962,Physics,5.0
+Maria Goeppert-Mayer,1963,Physics,4.0
+J. Hans D. Jensen,1963,Physics,5.0
+Eugene P. Wigner,1963,Physics,3.0
+Nicolay Gennadiyevich Basov,1964,Physics,7.0
+Aleksandr Mikhailovich Prokharov,1964,Physics,6.0
+Charles H. Townes,1964,Physics,6.0
+Richard P. Feynman,1965,Physics,3.0
+Julian S. Schwinger,1965,Physics,4.0
+Sin-Itiro Tomonaga,1965,Physics,5.0
+Alfred Kastler,1966,Physics,7.0
+Hans Albrecht Bethe,1967,Physics,3.0
+Luis W. Alvarez,1968,Physics,5.0
+Murray Gell-Mann,1969,Physics,3.0
+Hannes Alfven,1970,Physics,5.0
+Louis Neel,1970,Physics,5.0
+Dennis Gabor,1971,Physics,5.0
+John Bardeen,1972,Physics,5.0
+Leon N. Cooper,1972,Physics,5.0
+John R. Schrieffer,1972,Physics,4.0
+Leo Esaki,1973,Physics,9.0
+Ivar Giaever,1973,Physics,7.0
+Brian D. Josephson,1973,Physics,7.0
+Antony Hewish,1974,Physics,8.0
+Sir Martin Ryle,1974,Physics,9.0
+Aage Bohr,1975,Physics,5.0
+Ben Mottelson,1975,Physics,5.0
+James Rainwater,1975,Physics,4.0
+Burton Richter,1976,Physics,6.0
+Samuel C. C. Ting,1976,Physics,5.0
+Philip W. Anderson,1977,Physics,5.0
+Sir Nevill F. Mott,1977,Physics,6.0
+John H. Van Vleck,1977,Physics,5.0
+Pyotr Leonidovich Kapitsa,1978,Physics,5.0
+Arno A. Penzias,1978,Physics,7.0
+Robert W. Wilson,1978,Physics,7.0
+Sheldon Lee Glashow,1979,Physics,2.0
+Abdus Salam,1979,Physics,3.0
+Steven Weinberg,1979,Physics,3.0
+James W. Cronin,1980,Physics,6.0
+Val L. Fitch,1980,Physics,5.0
+Nicolaas Bloembergen,1981,Physics,5.0
+Arthur L. Schawlow,1981,Physics,5.0
+Kai M. Siegbahn,1981,Physics,8.0
+Kenneth G. Wilson,1982,Physics,6.0
+Subramanyan Chandrasekhar,1983,Physics,4.0
+William A. Fowler,1983,Physics,5.0
+Carlo Rubbia,1984,Physics,5.0
+Simon Van Der Meer,1984,Physics,6.0
+Klaus von Klitzing,1985,Physics,5.0
+Gerd Binnig,1986,Physics,6.0
+Heinrich Rohrer,1986,Physics,7.0
+Ernst Ruska,1986,Physics,8.0
+J. Georg Bednorz,1987,Physics,10.0
+K. Alexander Muller,1987,Physics,9.0
+Leon M. Lederman,1988,Physics,6.0
+Melvin Schwartz,1988,Physics,7.0
+Jack Steinberger,1988,Physics,5.0
+Hans G. Dehmelt,1989,Physics,7.0
+Wolfgang Paul,1989,Physics,8.0
+Norman F. Ramsey,1989,Physics,3.0
+Jerome I. Friedman,1990,Physics,5.0
+Henry W. Kendall,1990,Physics,5.0
+Richard E. Taylor,1990,Physics,5.0
+Pierre-Gilles De Gennes,1991,Physics,6.0
+Georges Charpak,1992,Physics,3.0
+Russell A. Hulse,1993,Physics,5.0
+"Joseph Hooton Taylor, Jr.",1993,Physics,4.0
+Bertram N. Brockhouse,1994,Physics,8.0
+Clifford G. Shull,1994,Physics,6.0
+"Martin L, Perl",1995,Physics,5.0
+Frederick Reines,1995,Physics,5.0
+David M. Lee,1996,Physics,6.0
+Douglas D. Osheroff,1996,Physics,5.0
+Robert C. Richardson,1996,Physics,6.0
+Steven Chu,1997,Physics,6.0
+Claude Cohen-Tannoudji,1997,Physics,4.0
+William D. Phillips,1997,Physics,5.0
+Robert B. Laughlin,1998,Physics,5.0
+Horst L. Stormer,1998,Physics,7.0
+Daniel C. Tsui,1998,Physics,7.0
+Gerardus ’t Hooft,1999,Physics,4.0
+Martinus J.G. Veltman,1999,Physics,5.0
+Zhores I. Alferov,2000,Physics,9.0
+Jack St. Clair Kilby,2000,Physics,12.0
+Herbert Kroemer,2000,Physics,9.0
+Eric A. Cornell,2001,Physics,7.0
+Wolfgang Ketterle,2001,Physics,8.0
+Carl E. Wieman,2001,Physics,5.0
+"Raymond Davis, Jr.",2002,Physics,5.0
+Riccardo Giacconi,2002,Physics,8.0
+Masatoshi Koshiba,2002,Physics,9.0
+Alexei A. Abrikosov,2003,Physics,6.0
+Vitaly L. Ginzburg,2003,Physics,6.0
+Anthony J. Leggett,2003,Physics,4.0
+David J. Gross,2004,Physics,4.0
+H. David Politzer,2004,Physics,3.0
+Frank Wilczek,2004,Physics,3.0
+Roy J. Glauber,2005,Physics,3.0
+John L. Hall,2005,Physics,7.0
+Theodor W. Hansch,2005,Physics,5.0
+John C. Mather,2006,Physics,6.0
+George C. Smoot,2006,Physics,5.0
+Albert Fert,2007,Physics,8.0
+Peter Grunberg,2007,Physics,7.0
+Makoto Kobayashi,2008,Physics,
+Toshihide Maskawa,2008,Physics,
+Yoichiro Nambu,2008,Physics,5.0
+Willard S. Boyle,2009,Physics,5.0
+Charles K. Kao,2009,Physics,
+George E. Smith,2009,Physics,9.0
+Andre K. Geim,2010,Physics,5.0
+Konstantin Novoselov,2010,Physics,6.0
+Saul Perlmutter,2011,Physics,5.0
+Adam G. Riess,2011,Physics,5.0
+Brian P. Schmidt,2011,Physics,6.0
+Serge Haroche,2012,Physics,3.0
+David Wineland,2012,Physics,3.0
+Francois Englert,2013,Physics,7.0
+Peter W. Higgs,2013,Physics,9.0
+F. Duncan M. Haldane,2016,Physics,4.0
+John Michael Kosterlitz,2016,Physics,4.0
+David J. Thouless,2016,Physics,3.0
+Roger Penrose,2020,Physics,3.0
+Paul A. Samuelson,1970,Economics,5.0
+Kenneth J. Arrow,1972,Economics,3.0
+Leonid Vitalevich Kantorovich,1975,Economics,2.0
+Tjalling C. Koopmans,1975,Economics,4.0
+Milton Friedman,1976,Economics,3.0
+Herbert A. Simon,1978,Economics,3.0
+James Tobin,1981,Economics,7.0
+Gerard Debreu,1983,Economics,3.0
+Franco Modigliani,1985,Economics,4.0
+Robert M. Solow,1987,Economics,4.0
+Harry M. Markowitz,1990,Economics,2.0
+Merton H. Miller,1990,Economics,4.0
+John C. Harsanyi,1994,Economics,8.0
+John F. Nash,1994,Economics,4.0
+Reinhard Selten,1994,Economics,5.0
+James Mirrlees,1996,Economics,3.0
+William S. Vickrey,1996,Economics,5.0
+Robert C. Merton,1997,Economics,6.0
+Amartya Sen,1998,Economics,4.0
+James J. Heckman,2000,Economics,4.0
+George A. Akerlof,2001,Economics,5.0
+Joseph Stiglitz,2001,Economics,4.0
+Daniel Kahneman,2002,Economics,3.0
+Vernon L. Smith,2002,Economics,4.0
+"Robert F. Engle, III",2003,Economics,4.0
+Clive William John Granger,2003,Economics,4.0
+Fynn E. Kydland,2004,Economics,6.0
+Robert J. Aumann,2005,Economics,3.0
+Edmund S. Phelps,2006,Economics,4.0
+Leonid Hurwicz,2007,Economics,3.0
+Eric S. Maskin,2007,Economics,2.0
+Roger B. Myerson,2007,Economics,3.0
+Elinor Ostrom,2009,Economics,5.0
+Dale T. Mortensen,2010,Economics,5.0
+Thomas J. Sargent,2011,Economics,5.0
+Christopher A. Sims,2011,Economics,5.0
+Alvin E. Roth,2012,Economics,3.0
+Lloyd S. Shapley,2012,Economics,3.0
+Lars Peter Hansen,2013,Economics,4.0
+Eugene F. Fama,2013,Economics,5.0
+Robert J. Shiller,2013,Economics,7.0
+Jean Tirole,2014,Economics,3.0
+Angus Deaton,2015,Economics,5.0
+Oliver D. Hart,2016,Economics,3.0
+Bengt Holmstrom,2016,Economics,4.0
+Paul M. Romer,2018,Economics,4.0
+Abhijit Banerjee,2019,Economics,4.0
+Esther Duflo,2019,Economics,5.0
+Paul R. Milgrom,2020,Economics,4.0
+Robert B. Wilson,2020,Economics,5.0
+Ernest Rutherford,1908,Chemistry,5.0
+Marie Curie,1911,Chemistry,7.0
+Harold C. Urey,1934,Chemistry,5.0
+Peter J. Debye,1936,Chemistry,5.0
+George De Hevesy,1943,Chemistry,7.0
+Otto Hahn,1944,Chemistry,7.0
+Otto Diels,1950,Chemistry,7.0
+Kurt Alder,1950,Chemistry,6.0
+Edwin M. McMillan,1951,Chemistry,3.0
+Glenn T. Seaborg,1951,Chemistry,4.0
+Linus Pauling,1954,Chemistry,4.0
+Willard Frank Libby,1960,Chemistry,7.0
+John C. Kendrew,1962,Chemistry,7.0
+Max F. Perutz,1962,Chemistry,7.0
+Robert B. Woodward,1965,Chemistry,7.0
+Lars Onsager,1968,Chemistry,3.0
+Ilya Prigogine,1977,Chemistry,6.0
+Walter Gilbert,1980,Chemistry,4.0
+Kenichi Fukui,1981,Chemistry,3.0
+Roald Hoffmann,1981,Chemistry,6.0
+Robert Bruce Merrifield,1984,Chemistry,6.0
+Herbert A. Hauptman,1985,Chemistry,3.0
+Jerome Karle,1985,Chemistry,4.0
+Dudley R. Herschbach,1986,Chemistry,9.0
+Yuan T. Lee,1986,Chemistry,5.0
+John C. Polanyi,1986,Chemistry,4.0
+Jean-Marie Lehn,1987,Chemistry,5.0
+Hartmut Michel,1988,Chemistry,4.0
+Johann Deisenhofer,1988,Chemistry,5.0
+Thomas R. Cech,1989,Chemistry,4.0
+Rudolph A. Marcus,1992,Chemistry,4.0
+Kary B. Mullis,1993,Chemistry,5.0
+George A. Olah,1994,Chemistry,7.0
+"Robert F. Curl, Jr.",1996,Chemistry,5.0
+Harold W. Kroto,1996,Chemistry,4.0
+Richard E. Smalley,1996,Chemistry,5.0
+Walter Kohn,1998,Chemistry,3.0
+John A. Pople,1998,Chemistry,5.0
+Ahmed H. Zewail,1999,Chemistry,9.0
+Alan J. Heeger,2000,Chemistry,5.0
+Alan G. MacDiarmid,2000,Chemistry,6.0
+Hideki Shirakawa,2000,Chemistry,6.0
+Martin Chalfie,2008,Chemistry,4.0
+Venkatraman Ramakrishnan,2009,Chemistry,6.0
+Thomas A. Steitz,2009,Chemistry,5.0
+Ada Yonath,2009,Chemistry,6.0
+Martin Karplus,2013,Chemistry,5.0
+Yoachim Frank,2017,Chemistry,6.0
+Richard Henderson,2017,Chemistry,6.0
+Joshua Lederberg,1958,Medicine*,5.0
+Edward Tatum,1958,Medicine*,11.0
+Georg von Bekesy,1961,Medicine*,12.0
+Francis H. C. Crick,1962,Medicine*,4.0
+James D. Watson,1962,Medicine*,4.0
+Sir John Carew Eccles,1963,Medicine*,3.0
+Max Delbrück,1969,Medicine*,7.0
+David Baltimore,1975,Medicine*,5.0
+Daniel Carleton Gajdusek,1976,Medicine*,4.0
+Daniel Nathans,1978,Medicine*,4.0
+Hamilton O. Smith,1978,Medicine*,3.0
+Sususmu Tonegawa,1987,Medicine*,5.0
+Harold E. Varmus,1989,Medicine*,4.0
+Erwin Neher,1991,Medicine*,7.0
+Bert Sakmann,1991,Medicine*,6.0
+Edmond H. Fischer,1992,Medicine*,7.0
+Edwin G. Krebs,1992,Medicine*,6.0
+Richard J. Roberts,1993,Medicine*,4.0
+Phillip A. Sharp,1993,Medicine*,5.0
+Alfred G. Gilman,1994,Medicine*,4.0
+Martin Rodbell,1994,Medicine*,7.0
+Edward B. Lewis,1995,Medicine*,5.0
+Christiane Nüsslein-Volhard,1995,Medicine*,4.0
+Eric F. Wieschaus,1995,Medicine*,5.0
+Peter C. Doherty,1996,Medicine*,6.0
+Rolf M. Zinkernagel,1996,Medicine*,6.0
+Stanley B. Prusiner,1997,Medicine*,5.0
+Robert F. Furchgott,1998,Medicine*,9.0
+Louis J. Ignarro,1998,Medicine*,10.0
+Ferid Murad,1998,Medicine*,8.0
+Günter Blobel,1999,Medicine*,5.0
+Arvid Carlsson,2000,Medicine*,9.0
+Paul Greegard,2000,Medicine*,5.0
+Eric R. Kandel,2000,Medicine*,4.0
+Leland H. Hartwell,2001,Medicine*,4.0
+Tim Hunt,2001,Medicine*,4.0
+Sir Paul M. Nurse,2001,Medicine*,4.0
+Sydney Brenner,2002,Medicine*,4.0
+H. Robert Horvitz,2002,Medicine*,4.0
+John E. Sulston,2002,Medicine*,3.0
+Paul C. Lauterbur,2003,Medicine*,8.0
+Sir Peter Mansfield,2003,Medicine*,9.0
+Richard Axel,2004,Medicine*,3.0
+Linda B. Buck,2004,Medicine*,4.0
+Barry J. Marshall,2005,Medicine*,6.0
+J. Robert Warren,2005,Medicine*,7.0
+Andrew Z. Fire,2006,Medicine*,4.0
+Craig C. Mello,2006,Medicine*,5.0
+Mario R. Capecchi,2007,Medicine*,4.0
+Sir Martin J. Evans,2007,Medicine*,5.0
+Oliver Smithies,2007,Medicine*,5.0
+Françoise Barré-Sinoussi,2008,Medicine*,6.0
+Luc Montagnier,2008,Medicine*,5.0
+Harald zur Hausen,2008,Medicine*,5.0
+Elizabeth H. Blackburn,2009,Medicine*,6.0
+Carol W. Greider,2009,Medicine*,6.0
+Jack W. Szostak,2009,Medicine*,5.0
+Robert G. Edwards,2010,Medicine*,5.0
