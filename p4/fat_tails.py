@@ -91,7 +91,7 @@ def alpha_regression(G, x_min=10, n_bins=15):
 
 
 def plot_alpha_regression(G, x_min=10, n_bins=15):
-    """Exercise 6: the three plots with fitted lines."""
+    """three plots with fitted lines."""
     values, counts = np.unique(get_degrees(G), return_counts=True)
     centers, hist = log_binned_histogram(G, n_bins)
     k, survival = survival_function(G)
@@ -118,7 +118,35 @@ def plot_alpha_regression(G, x_min=10, n_bins=15):
 
 
 def mle_alpha(G, x_min):
-    """Exercise 7: MLE of alpha for a known x_min."""
+    """MLE of alpha for a known x_min."""
     x = get_degrees(G)
     x = x[x >= x_min]
     return 1 + len(x) / np.sum(np.log(x / x_min))
+
+
+def ks_distance(G, x_min):
+    """Kolmogorov-Smirnov distance between the data (degrees >= x_min)
+    and the power law fitted with MLE for this x_min."""
+    x = get_degrees(G)
+    x = x[x >= x_min]
+    alpha = mle_alpha(G, x_min)
+    k = np.unique(x)
+
+    D = 0
+    for i in range(len(k)):
+        data_S = np.mean(x >= k[i])
+        model_S = (k[i] / x_min) ** (1 - alpha)
+        D = max(D, abs(data_S - model_S))
+    return D
+
+
+def find_x_min(G, x_mins):
+    """choose x_min with the smallest KS distance."""
+    best_x_min = x_mins[0]
+    best_D = ks_distance(G, x_mins[0])
+    for i in range(1, len(x_mins)):
+        D = ks_distance(G, x_mins[i])
+        if D < best_D:
+            best_D = D
+            best_x_min = x_mins[i]
+    return best_x_min, best_D
